@@ -35,9 +35,6 @@ html {
 }
 
 .avatar {
-	border:none !important;
-	max-width:127px !important;
-	max-height:127px !important;
 	width: 127px !important;
 /*头像大小固定*/
 }
@@ -196,7 +193,7 @@ a {
 .pagination {
 	margin: 30px;
 	padding: 0 0 56px 0;
-	border-bottom: 1px solid #f2f2f2;
+	/*border-bottom: 1px solid #f2f2f2;*/
 }
 
 .pagination ul {
@@ -219,7 +216,11 @@ a {
 .pagination ul li a {
 	text-decoration: none;
 }
-
+.nomore{
+	color: rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-right: 60px;
+}
 a.btn {
 	color: #868686;
 	font-weight: 400;
