@@ -1,4 +1,4 @@
-<!--Post-->
+{(Post)}
 <div class="autopagerize_page_element">
 	<div class="content">
 		<div class="post-page">
@@ -17,14 +17,14 @@
 							<!--<a href='#' class='taglink'>日常</a>-->
 						</div>
 					</div>
-					<!--PostEnd-->
+					{(:PostEnd)}
 					<!--Comment-->
                     <div class='comments'>{[comments]}</div>
-					<!--Footer-->
+					{(Footer:)}
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <script>PJAX.autoprevent();PJAX.sel('container');PJAX.start();</script>
-<!--[PageType]{[pagetype]}[PageTypeEnd]-->
+{(PageType)}{[pagetype]}{(PageTypeEnd)}
