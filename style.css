@@ -38,6 +38,8 @@ html {
 	width: 127px !important;
 	max-width: 127px !important;
 	min-width: 127px !important;
+	max-height: 127px !important;
+	min-height: 127px !important;
 /*头像大小固定*/
 }
 
