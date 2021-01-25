@@ -6,7 +6,7 @@
 				<div class="post-title">
 					<h3><a>标签页</a></h3>
 				</div>
-				<div class="post-content" id='tags' style='margin-top:20px;'>
+				<div class="post-content" style='margin-top:20px;'>
 					{[tags]}
 					<!--[<a href='#Page' class='itemlink'>日常</a>]-->
 				</div>
@@ -15,7 +15,6 @@
 	</div>
 </div>
   {(PageType)}{[pagetype]}{(PageTypeEnd)}
-  <script>PJAX.autoprevent();PJAX.sel('container');PJAX.start();</script>
 {(TagsEnd)}
 {(TagItemTemplate)}
 [<a href='{[tagitemlink]}' class='itemlink'>{[tagitemtitle]}</a>]
