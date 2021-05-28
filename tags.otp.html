@@ -1,0 +1,27 @@
+{(Tags)}
+<div class="autopagerize_page_element">
+	<div class="content">
+		<div class="post-page">
+			<div class="post animated fadeInDown">
+				<div class="post-title">
+					<h3><a>标签页</a></h3>
+				</div>
+				<div class="post-content" style='margin-top:20px;'>
+					{[tags]}
+					<!--[<a href='#Page' class='itemlink'>日常</a>]-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{(TagsEnd)}
+{(TagItemTemplate)}
+[<a href='{[tagitemlink]}' class='itemlink'>{[tagitemtitle]}</a>]
+{(TagItemTemplateEnd)}
+{(TagListTemplate)}
+<span>{[tagcurrent]}</span>
+<ul style='padding-left:0px;'>{[taglist]}</ul>
+{(TagListTemplateEnd)}
+{(TagListItemTemplate)}
+<li><a class='taglink' href='{[taglistitemlink]}'>{[taglistitemtitle]}</a></li><!--日期：{[taglistitemdate]}-->
+{(TagListItemTemplateEnd)}

@@ -1,0 +1,21 @@
+{(PostListTemplate)}
+<div class="autopagerize_page_element">
+   <div class='content' id='content'>
+   {[postitems]}
+   <div class="pagination">
+     <ul class="clearfix">
+      <li class="next pagbuttons">
+       {[morebtn]}
+      </li>
+     </ul>
+   </div>
+   </div>
+   {[backbtn]}
+  {(PageType)}{[pagetype]}{(PageTypeEnd)}
+{(PostListTemplateEnd)}
+{(MoreBtn)}
+<a class="btn" role="navigation" href="javascript:void(0);" onclick="B.more()">More</a>
+{(MoreBtnEnd)}
+{(BackBtn)}
+
+{(BackBtnEnd)}
