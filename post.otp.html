@@ -1,4 +1,4 @@
-{(Post)}
+{(PostTemplate)}
 <div class="autopagerize_page_element">
 	<div class="content">
 		<div class="post-page">
@@ -26,3 +26,7 @@
 		</div>
 	</div>
 </div>
+{(PostTemplateEnd)}
+{(PostTagsTemplate)}<a href="{[tagurl]}" class="taglink">{[tagname]}</a>{(PostTagsTemplateEnd)}
+{(PostTagsDelimiter)},{(PostTagsDelimiterEnd)}
+{(IfPage)}页面{(IfPageEnd)}
